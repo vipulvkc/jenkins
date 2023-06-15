@@ -1,22 +1,19 @@
 pipeline {
     agent any
-    
     stages {
         stage('Build') {
             steps {
-                // Define the steps for building your project
+                //
             }
         }
-        
         stage('Test') {
             steps {
-                // Define the steps for running tests
+                //
             }
         }
-        
         stage('Deploy') {
             steps {
-                // Define the steps for deploying your application
+                //
             }
         }
     }
